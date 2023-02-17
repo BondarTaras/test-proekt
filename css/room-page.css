@@ -104,8 +104,7 @@ li {
   color: #7a7a7a;
   margin-bottom: 32px;
 }
-.amenities-list {
-}
+
 .amenities-item {
   margin-bottom: 32px;
 }
@@ -172,7 +171,10 @@ li {
 
 /* ===============================*/
 @media screen and (min-width: 414px) {
-  .container {
+  .room-hero > .container {
+    width: 414px;
+  }
+  .amenities > .container {
     width: 414px;
   }
   /*==============================Hero============================ */
@@ -183,7 +185,12 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
-  .container {
+  .room-hero > .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .amenities > .container {
     width: 1024px;
     padding-left: 47px;
     padding-right: 47px;
@@ -220,8 +227,7 @@ li {
     color: #ffffff;
     margin-bottom: 0;
   }
-  .room-hero-text-btn {
-  }
+
   .open-prices {
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #ffffff;
@@ -262,7 +268,12 @@ li {
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .room-hero > .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .amenities > .container {
     width: 1280px;
     padding-left: 85px;
     padding-right: 85px;
