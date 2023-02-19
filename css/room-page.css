@@ -31,7 +31,6 @@ li {
 
 /*==============================Hero============================ */
 .room-hero {
-  max-width: 1440px;
   padding-top: 341px;
   padding-bottom: 40px;
   background-image: url(../image/room-2-mobile-1x.jpg);
@@ -204,6 +203,9 @@ li {
 
 /* ===============================*/
 @media screen and (min-width: 414px) {
+  .room-hero {
+    max-width: 414px;
+  }
   .room-hero > .container {
     width: 414px;
   }
@@ -218,6 +220,9 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
+  .room-hero {
+    max-width: 1024px;
+  }
   .room-hero > .container {
     width: 1024px;
     padding-left: 47px;
@@ -301,6 +306,9 @@ li {
   }
 }
 @media screen and (min-width: 1280px) {
+  .room-hero {
+    max-width: 1440px;
+  }
   .room-hero > .container {
     width: 1280px;
     padding-left: 85px;
