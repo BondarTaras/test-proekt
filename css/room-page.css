@@ -33,7 +33,13 @@ li {
 .room-hero {
   padding-top: 341px;
   padding-bottom: 40px;
-  background-image: url(../image/room-2-mobile-1x.jpg);
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 54.17%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../image/room-2-mobile-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
