@@ -220,9 +220,6 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
-  .room-hero {
-    max-width: 1024px;
-  }
   .room-hero > .container {
     width: 1024px;
     padding-left: 47px;
@@ -235,6 +232,7 @@ li {
   }
   /*==============================Hero============================ */
   .room-hero {
+    max-width: 1024px;
     padding-top: 353px;
     padding-bottom: 102px;
     background-image: url(../image/room-2-tablet-1x.jpg);
@@ -306,9 +304,6 @@ li {
   }
 }
 @media screen and (min-width: 1280px) {
-  .room-hero {
-    max-width: 1440px;
-  }
   .room-hero > .container {
     width: 1280px;
     padding-left: 85px;
@@ -321,6 +316,7 @@ li {
   }
   /*==============================Hero============================ */
   .room-hero {
+    max-width: 1440px;
     padding-top: 377px;
     padding-bottom: 48px;
     background-image: url(../image/room-2-desktop-1x.jpg);
