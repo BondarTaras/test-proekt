@@ -99,11 +99,11 @@ li {
 }
 .room-hero-soc {
   display: flex;
-  gap: 72px;
+  justify-content: space-between;
 }
 .room-hero-icons {
   display: flex;
-  gap: 11px;
+  gap: 4px;
   flex-direction: column;
 }
 .open-prices {
@@ -252,9 +252,15 @@ li {
     width: 414px;
   }
   /*==============================Hero============================ */
-  /* .open-prices {
-    margin-left: 94px;
-  } */
+  .room-hero-soc {
+    display: flex;
+    gap: 70px;
+    justify-content: flex-start;
+  }
+  .room-hero-icons {
+    display: flex;
+    gap: 11px;
+  }
   /*==============================Ameniries=============================== */
 }
 
